@@ -1,0 +1,10 @@
+#w-comments .wl-reaction-list {
+    gap: 24px;
+}
+#w-comments .wl-reaction-img {
+    width: 72px;
+    height: 72px;
+}
+#w-comments .wl-reaction-votes {
+    font-size: 1em;
+}

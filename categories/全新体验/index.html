@@ -85,6 +85,10 @@
 
   <!-- 额外的追加注入项 -->
   
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+<link rel="stylesheet" href="/comments/waline.css" />
+
+  
 <meta name="generator" content="Hexo 8.1.1"></head>
 
     <body class="custom-background">
@@ -282,6 +286,16 @@
                     
                 </a>
                 
+                    <a>
+                        <i class="fa fa-eye"></i>
+                        <span data-path="/posts/hello-world/" class="waline-pageview-count"> </span> 次阅读
+                    </a>
+                
+                
+                    <a>
+                        <i class="fa fa-commenting-o"></i>
+                        <span data-path="/posts/hello-world/" class="waline-comment-count"> </span> 条评论
+                    </a>
                 
             </span>
             <span class="pull-right">
@@ -296,6 +310,10 @@
 
 
 
+
+    <div class="comment-index">
+        
+    </div>
 
 
 
@@ -432,6 +450,8 @@
                                 
                                     <li>在 <a href="https://github.io" target="_blank">Github Pages</a> 暖心托管</li>
                                 
+                                    <li>您是本站的第 <span data-path="/index.html" class="waline-pageview-count"></span> 位访客</li>
+                                
                             </div>
                         
                     </ul>
@@ -546,6 +566,9 @@
 
 
 <!-- 额外的追加注入项 -->
+
+  <script defer type="module" src="/comments/waline.js"></script>
+
 
 
     </body>
