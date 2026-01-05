@@ -2,7 +2,7 @@ import { init, commentCount  } from 'https://unpkg.com/@waline/client@v3/dist/wa
 import { pageviewCount } from 'https://unpkg.com/@waline/client@v3/dist/pageview.js';
 
 (() => {
-  const serverURL = 'https://shirokocomment-czvrlk8ci-fallwind2233s-projects.vercel.app/';
+  const serverURL = 'https://shirokocomment.vercel.app/';
   let firstVisit = true;
 
   const loadComments = async () => {
