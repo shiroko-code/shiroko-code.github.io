@@ -6,7 +6,7 @@
   <link href="https://krt.moe/atom.xml" rel="self"/>
   
   <link href="https://krt.moe/"/>
-  <updated>2026-01-04T17:18:57.670Z</updated>
+  <updated>2026-01-05T05:54:10.440Z</updated>
   <id>https://krt.moe/</id>
   
   <author>
@@ -20,24 +20,45 @@
     <title>你好，世界！</title>
     <link href="https://krt.moe/posts/hello-world/"/>
     <id>https://krt.moe/posts/hello-world/</id>
-    <published>2018-05-06T09:03:12.000Z</published>
-    <updated>2026-01-04T17:18:57.670Z</updated>
+    <published>2026-01-06T05:03:12.000Z</published>
+    <updated>2026-01-05T05:54:10.440Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎使用 <code>Kratos : Rebirth</code> 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。</p>]]></content>
+    <content type="html"><![CDATA[<p>欢迎使用 <code>Kratos : Rebirth</code> 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。</p><hr><p>欢迎来到白子的博客！</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;欢迎使用 &lt;code&gt;Kratos : Rebirth&lt;/code&gt; 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;欢迎来到白子的博客！&lt;/p&gt;
 </summary>
       
     
     
     
-    <category term="全新体验" scheme="https://krt.moe/categories/%E5%85%A8%E6%96%B0%E4%BD%93%E9%AA%8C/"/>
-    
     
     <category term="欢迎" scheme="https://krt.moe/tags/%E6%AC%A2%E8%BF%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker镜像源配置</title>
+    <link href="https://krt.moe/posts/Docker%E9%95%9C%E5%83%8F%E6%BA%90%E9%85%8D%E7%BD%AE/"/>
+    <id>https://krt.moe/posts/Docker%E9%95%9C%E5%83%8F%E6%BA%90%E9%85%8D%E7%BD%AE/</id>
+    <published>2026-01-05T05:50:14.000Z</published>
+    <updated>2026-01-05T05:52:24.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>向配置文件 &#x2F;etc&#x2F;docker&#x2F;daemon.json 写入镜像源<br>格式如下：</p><p>{<br>    “registry-mirrors”: [<br>    “<a href="https://docker.m.daocloud.io/">https://docker.m.daocloud.io</a>“,<br>    “<a href="https://docker.imgdb.de/">https://docker.imgdb.de</a>“,<br>    “<a href="https://docker-0.unsee.tech/">https://docker-0.unsee.tech</a>“,<br>    “<a href="https://docker.hlmirror.com/">https://docker.hlmirror.com</a>“,<br>    “<a href="https://docker.1ms.run/">https://docker.1ms.run</a>“,<br>    “<a href="https://func.ink/">https://func.ink</a>“,<br>    “<a href="https://lispy.org/">https://lispy.org</a>“,<br>    “<a href="https://docker.xiaogenban1993.com/">https://docker.xiaogenban1993.com</a>“<br>    ]<br>}<br>然后需要重启docker服务</p><p>sudo systemctl daemon-reload &amp;&amp; sudo systemctl restart docker</p><hr><p>转自<a href="https://www.cnblogs.com/test-gang/p/18809935">https://www.cnblogs.com/test-gang/p/18809935</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;向配置文件 &amp;#x2F;etc&amp;#x2F;docker&amp;#x2F;daemon.json 写入镜像源&lt;br&gt;格式如下：&lt;/p&gt;
+&lt;p&gt;{&lt;br&gt;    “registry-mirrors”: [&lt;br&gt;    	“&lt;a href=&quot;https://docker.m.daoc</summary>
+      
+    
+    
+    
     
   </entry>
   
