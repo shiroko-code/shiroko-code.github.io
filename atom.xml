@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Shiroko/s Blogs</title>
+  <title>LiquidBounce Client Blogs</title>
   
   <subtitle>---Welcome</subtitle>
   <link href="https://krt.moe/atom.xml" rel="self"/>
@@ -33,31 +33,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>你好，世界！</title>
-    <link href="https://krt.moe/posts/hello-world/"/>
-    <id>https://krt.moe/posts/hello-world/</id>
-    <published>2026-01-06T05:03:12.000Z</published>
-    <updated>2026-01-05T05:54:10.440Z</updated>
-    
-    <content type="html"><![CDATA[<p>欢迎使用 <code>Kratos : Rebirth</code> 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。</p><hr><p>欢迎来到白子的博客！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;欢迎使用 &lt;code&gt;Kratos : Rebirth&lt;/code&gt; 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;欢迎来到白子的博客！&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="欢迎" scheme="https://krt.moe/tags/%E6%AC%A2%E8%BF%8E/"/>
     
   </entry>
   
